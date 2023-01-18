@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <img src='/image 2.svg' alt='Imagem sofá'></img>
+      </div>
+      <div className='container-product'>
+        <p className='code'>CÓDIGO: 42404</p>
+
+        <h1 className='product'>Sofá Margot II - Rosé</h1>
+
+        <p className='price'>R$ 4.000</p>
+
+        <a href='/'>Adicionar à cesta</a>
+      </div>
     </div>
   );
 }
